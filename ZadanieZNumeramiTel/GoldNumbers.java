@@ -47,7 +47,17 @@ public class GoldNumbers {
 
     public void zmienCyfre(int i, int j) {
 
-        this.xxx = j;
+       switch(i) {
+           case 1:
+               this.xxx = j;
+               break;
+           case 2:
+               this.yy = j;
+               break;
+           case 3:
+               this.zz = j;
+               break;
+       }
 
     }
 
